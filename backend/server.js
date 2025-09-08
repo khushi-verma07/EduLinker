@@ -276,7 +276,6 @@ app.delete("/api/user/:id", async (req, res) => {
 
 
 
-// No local file serving needed - using Cloudinary only
 
 // Use Cloudinary upload routes
 app.use("/api/upload", directCloudinaryUploadRoutes);
